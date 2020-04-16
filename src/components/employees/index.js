@@ -4,7 +4,7 @@ import Loading from '../loading';
 import './Employees.scss';
 
 
-const EMPLOYESS_API_URL = 'http://dummy.restapiexample.com/api/v1/employees';
+const EMPLOYESS_API_URL = 'https://dummy.restapiexample.com/api/v1/employees';
 
 function Employees() {
 
