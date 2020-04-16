@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/airmiles/precache-manifest.7a4b60f825ce010c41e42c67e4e9d926.js"
+  "/airmiles/precache-manifest.44adbc6e6b3c9a0b0d75ec7396c482cd.js"
 );
 
 self.addEventListener('message', (event) => {
