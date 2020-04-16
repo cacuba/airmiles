@@ -1,0 +1,63 @@
+@import '../../styles';
+
+.employees {
+    &-list {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+
+        &-employee {
+            background-color: $lightGray;
+            border-radius: 5px;
+            color: #666;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            list-style: none;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            flex-grow: 1;
+            outline-color: $blue1;
+
+            @include xs { width: 100%;}
+            @include sm { width: 100%;}
+            @include md { width: 200px;}
+            @include lg { width: 350px;}
+            @include xl { width: 350px;}
+
+            .employee-favourite {
+                text-align: right;
+
+                .favourite-button {
+                    border: 0;
+                    background: none;
+                    color: $blue1;
+                    outline: none;
+                    font-size: 1em;
+                    text-align: right;
+                    width: fit-content;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .employee-name {
+                font-size: 1.5em;
+                font-weight: 500;
+                line-height: 1.7em;
+            }
+
+
+            &.favourite {
+                background-color: #00bef352;
+
+                .favourite-button {
+                    color: red;
+                }
+            }
+        }
+    }
+}
