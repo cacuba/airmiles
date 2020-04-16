@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/airmiles/static/css/main.20b6342b.chunk.css",
+    "main.js": "/airmiles/static/js/main.cd8171cd.chunk.js",
+    "main.js.map": "/airmiles/static/js/main.cd8171cd.chunk.js.map",
+    "runtime-main.js": "/airmiles/static/js/runtime-main.8ff8185b.js",
+    "runtime-main.js.map": "/airmiles/static/js/runtime-main.8ff8185b.js.map",
+    "static/js/2.63760f12.chunk.js": "/airmiles/static/js/2.63760f12.chunk.js",
+    "static/js/2.63760f12.chunk.js.map": "/airmiles/static/js/2.63760f12.chunk.js.map",
+    "index.html": "/airmiles/index.html",
+    "precache-manifest.a92284508d54ecd5c8369f87e0e43a95.js": "/airmiles/precache-manifest.a92284508d54ecd5c8369f87e0e43a95.js",
+    "service-worker.js": "/airmiles/service-worker.js",
+    "static/css/main.20b6342b.chunk.css.map": "/airmiles/static/css/main.20b6342b.chunk.css.map",
+    "static/js/2.63760f12.chunk.js.LICENSE.txt": "/airmiles/static/js/2.63760f12.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ff8185b.js",
+    "static/js/2.63760f12.chunk.js",
+    "static/css/main.20b6342b.chunk.css",
+    "static/js/main.cd8171cd.chunk.js"
+  ]
+}
